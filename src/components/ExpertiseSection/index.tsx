@@ -39,9 +39,9 @@ const ExpertiseSection: FC = () => {
                 vectors.
               </p>
 
-              <a href="/">
+              <CustomLink href="/">
                 Learn More <ArrowIcon />
-              </a>
+              </CustomLink>
             </CustomLink>
           </ExpertiseCard>
 
@@ -58,9 +58,9 @@ const ExpertiseSection: FC = () => {
                 vectors.
               </p>
 
-              <a href="/">
+              <CustomLink href="/">
                 Learn More <ArrowIcon />
-              </a>
+              </CustomLink>
             </CustomLink>
           </ExpertiseCard>
 
@@ -77,9 +77,9 @@ const ExpertiseSection: FC = () => {
                 vectors.
               </p>
 
-              <a href="/">
+              <CustomLink href="/">
                 Learn More <ArrowIcon />
-              </a>
+              </CustomLink>
             </CustomLink>
           </ExpertiseCard>
 
@@ -96,9 +96,9 @@ const ExpertiseSection: FC = () => {
                 vectors.
               </p>
 
-              <a href="/">
+              <CustomLink href="/">
                 Learn More <ArrowIcon />
-              </a>
+              </CustomLink>
             </CustomLink>
           </ExpertiseCard>
 
@@ -115,9 +115,9 @@ const ExpertiseSection: FC = () => {
                 vectors.
               </p>
 
-              <a href="/">
+              <CustomLink href="/">
                 Learn More <ArrowIcon />
-              </a>
+              </CustomLink>
             </CustomLink>
           </ExpertiseCard>
 
@@ -134,9 +134,9 @@ const ExpertiseSection: FC = () => {
                 vectors.
               </p>
 
-              <a href="/">
+              <CustomLink href="/">
                 Learn More <ArrowIcon />
-              </a>
+              </CustomLink>
             </CustomLink>
           </ExpertiseCard>
         </Grid>

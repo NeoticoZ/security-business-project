@@ -32,10 +32,10 @@ const Hero: FC = () => {
               <img src="./slider-video-player.png" alt="ícone de play" />
             </button>
 
-            <a href="/" className="callToAction">
+            <CustomLink href="/" className="callToAction">
               Get a free consultation
               <ArrowIcon />
-            </a>
+            </CustomLink>
           </ButtonsWrapper>
         </section>
 
