@@ -62,9 +62,11 @@ export const ExpertiseCard = styled.div`
   justify-content: center;
   text-align: center;
 
-  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.1);
 
   transition: transform 0.2s ease-in-out;
+
+  cursor: pointer;
 
   > a {
     margin: 2.5rem;
@@ -93,7 +95,7 @@ export const ExpertiseCard = styled.div`
       margin-top: 1rem;
     }
 
-    a {
+    span {
       color: var(--color--red);
       font-weight: 500;
       text-decoration: none;

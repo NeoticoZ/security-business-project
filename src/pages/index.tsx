@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import FeaturesSection from "../components/FeaturesSection";
 import ExpertiseSection from "../components/ExpertiseSection";
 import CTAFirstModel from "../components/CTAFirstModel";
+import FaqSection from "../components/FaqSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <FeaturesSection />
       <ExpertiseSection />
       <CTAFirstModel />
+      <FaqSection />
     </>
   );
 }

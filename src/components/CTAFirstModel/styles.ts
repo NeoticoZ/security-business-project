@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
-import { MdOutlineArrowRightAlt } from "../../styles/icons";
+import { CutSectionImg, MdOutlineArrowRightAlt } from "../../styles/icons";
 
 export const Container = styled.section`
   height: 40rem;
   background: url("/world.jpg") center/cover;
+
+  position: relative;
+
+  z-index: -1;
 `;
 
 export const Wrapper = styled.div`
@@ -86,4 +90,15 @@ export const CTAButtons = styled.div`
 export const ArrowIcon = styled(MdOutlineArrowRightAlt)`
   width: 2rem;
   height: 2rem;
+`;
+
+export const CutSection = styled(CutSectionImg)`
+  fill: var(--color--white);
+
+  transform: rotateX(180deg);
+  width: 100vw;
+  height: 4rem;
+
+  position: absolute;
+  bottom: 0;
 `;

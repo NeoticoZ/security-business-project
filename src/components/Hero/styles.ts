@@ -139,7 +139,7 @@ export const CutSection = styled(CutSectionImg)`
   fill: white;
 
   transform: rotateX(180deg);
-  height: 100vw;
+  width: 100vw;
   height: 4rem;
 `;
 
