@@ -7,8 +7,6 @@ export const Container = styled.section`
   background: url("/world.jpg") center/cover;
 
   position: relative;
-
-  z-index: -1;
 `;
 
 export const Wrapper = styled.div`
@@ -33,16 +31,19 @@ export const Wrapper = styled.div`
 
   p {
     max-width: 60rem;
+
     margin-bottom: 1rem;
+
     font-size: 1.125rem;
     color: var(--color--gray-450);
   }
 `;
 
 export const Divider = styled.div`
-  background: var(--color--red);
   width: 0.125rem;
   height: 5rem;
+
+  background: var(--color--red);
 
   margin: 0.5rem 0;
 `;
@@ -65,6 +66,7 @@ export const CTAButtons = styled.div`
   .consultButton {
     color: var(--color--white);
     background: var(--color--red);
+
     text-decoration: none;
 
     border-radius: 50px;
@@ -76,6 +78,7 @@ export const CTAButtons = styled.div`
 
   .demoButton {
     color: var(--color--red);
+
     text-decoration: none;
 
     border: 2px solid var(--color--red);

@@ -68,6 +68,8 @@ export const ExpertiseCard = styled.div`
 
   cursor: pointer;
 
+  z-index: 2;
+
   > a {
     margin: 2.5rem;
     text-decoration: none;
