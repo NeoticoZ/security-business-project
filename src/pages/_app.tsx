@@ -4,17 +4,15 @@ import Loading from "../components/Loading";
 import GlobalStyles from "../styles/GlobalStyles";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    setIsLoaded(true);
+    setIsLoading(false);
   }, []);
 
   return (
     <>
-      <Loading dontShow={isLoaded} />
-
-      <Component {...pageProps} />
+      {isLoading ? <Loading /> : <Component {...pageProps} />}
 
       <GlobalStyles />
     </>

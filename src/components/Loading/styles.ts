@@ -20,10 +20,6 @@ export const Container = styled.div`
     animation: spinner 1s linear infinite;
   }
 
-  &.dontShow {
-    display: none;
-  }
-
   @keyframes spinner {
     0% {
       transform: rotate(0deg);
