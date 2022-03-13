@@ -1,9 +1,13 @@
 import { FC } from "react";
 import { Container, SpinnerIcon } from "./styles";
 
-const Loading: FC = () => {
+interface LoadingProps {
+  dontShow?: boolean;
+}
+
+const Loading: FC<LoadingProps> = ({ dontShow }) => {
   return (
-    <Container>
+    <Container className={dontShow ? "dontShow" : ""}>
       <SpinnerIcon />
     </Container>
   );
