@@ -6,6 +6,7 @@ import FeaturesSection from "../components/FeaturesSection";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import SponsorsSection from "../components/SponsorsSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <CTASection />
       <FaqSection />
       <CasesSection />
+      <SponsorsSection />
     </>
   );
 }
