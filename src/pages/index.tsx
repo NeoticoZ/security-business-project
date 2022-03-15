@@ -1,5 +1,5 @@
 import CasesSection from "../components/CasesSection";
-import CTAFirstModel from "../components/CTAFirstModel";
+import CTASection from "../components/CTASection";
 import ExpertiseSection from "../components/ExpertiseSection";
 import FaqSection from "../components/FaqSection";
 import FeaturesSection from "../components/FeaturesSection";
@@ -15,7 +15,7 @@ export default function Home() {
       <Hero />
       <FeaturesSection />
       <ExpertiseSection />
-      <CTAFirstModel />
+      <CTASection />
       <FaqSection />
       <CasesSection />
     </>

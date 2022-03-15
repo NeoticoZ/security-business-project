@@ -1,16 +1,15 @@
 import { FC } from "react";
 import CustomLink from "../CustomLink";
-
 import {
-  Container,
-  Wrapper,
-  CTAButtons,
-  Divider,
   ArrowIcon,
+  Container,
+  CTAButtons,
   CutSection,
+  Divider,
+  Wrapper,
 } from "./styles";
 
-const CTAFirstModel: FC = () => {
+const CTASection: FC = () => {
   return (
     <Container>
       <Wrapper>
@@ -40,4 +39,4 @@ const CTAFirstModel: FC = () => {
   );
 };
 
-export default CTAFirstModel;
+export default CTASection;
