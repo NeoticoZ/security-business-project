@@ -1,11 +1,10 @@
 import styled, { css } from "styled-components";
-
 import {
   FaFacebookF,
+  FaInstagram,
   FaLinkedinIn,
   FaPinterestP,
   FaTwitter,
-  FaInstagram,
 } from "../../styles/icons";
 
 interface Props {
