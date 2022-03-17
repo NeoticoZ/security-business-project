@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 import { CutSectionImg } from "../../styles/icons";
 
 export const Container = styled.section`

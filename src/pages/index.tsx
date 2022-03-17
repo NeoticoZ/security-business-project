@@ -6,6 +6,7 @@ import FeaturesSection from "../components/FeaturesSection";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import NumbersSection from "../components/NumbersSection";
 import SponsorsSection from "../components/SponsorsSection";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <FaqSection />
       <CasesSection />
       <SponsorsSection />
+      <NumbersSection />
     </>
   );
 }
