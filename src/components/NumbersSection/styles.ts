@@ -63,8 +63,6 @@ export const Number = styled.div`
 `;
 
 export const CutSection = styled(CutSectionImg)<CutSectionImgProps>`
-  fill: var(--color--white);
-
   transform: ${(props) =>
     props.bottom ? "rotateX(180deg);" : "rotateY(180deg);"};
   width: 100vw;
@@ -72,7 +70,7 @@ export const CutSection = styled(CutSectionImg)<CutSectionImgProps>`
 
   position: absolute;
 
-  /* Receives a prop and positions the img. */
-  ${(props) => props.top && "top: 0;"}
-  ${(props) => props.bottom && "bottom: 0;"}
+  /* Receives a prop, positions the img and change the color. */
+  ${(props) => props.top && "fill: var(--color--white); top: 0;"}
+  ${(props) => props.bottom && "fill: var(--color--gray-50); bottom: 0;"}
 `;

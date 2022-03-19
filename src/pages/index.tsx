@@ -8,6 +8,7 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import NumbersSection from "../components/NumbersSection";
 import SponsorsSection from "../components/SponsorsSection";
+import TestimonialsSection from "../components/TestimonialsSection";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <CasesSection />
       <SponsorsSection />
       <NumbersSection />
+      <TestimonialsSection />
     </>
   );
 }

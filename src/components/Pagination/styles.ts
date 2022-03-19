@@ -26,4 +26,10 @@ export const Container = styled.div`
       background: var(--color--red);
     }
   }
+
+  &.secondType {
+    button {
+      height: 0.35rem;
+    }
+  }
 `;

@@ -11,6 +11,7 @@ export default createGlobalStyle`
   --color--black: #151515;
   --color--black-500: #0a0a0a;
   --color--cyan-bluish-gray: #abb8c3;
+  --color--gray-50: #f5f5f5;
   --color--gray-100: #e6e6e6;
   --color--gray-200: #a5a5a5;
   --color--gray-300: #9f9f9f;

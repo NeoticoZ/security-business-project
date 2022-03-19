@@ -1,9 +1,13 @@
 import React, { FC } from "react";
 import { Container } from "./styles";
 
-const Pagination: FC = () => {
+interface PaginationProps {
+  secondType?: boolean;
+}
+
+const Pagination: FC<PaginationProps> = ({ secondType }) => {
   return (
-    <Container>
+    <Container className={secondType ? "secondType" : ""}>
       <button className="active" />
       <button />
       <button />
